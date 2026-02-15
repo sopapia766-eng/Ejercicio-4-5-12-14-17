@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOugp2eQtycqdckMCfTSqQD",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sopapia766-eng/Ejercicio-4-5-12-14-17/blob/main/ejercicio%20%234\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pMhgbd0xDh0Y",
+        "outputId": "3ef7d6d1-b0f0-42e7-c79f-eaf026b8495e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Edad de Juan  9\n",
+            "Edad de alber  6.0\n",
+            "Edad de Ana  12.0\n",
+            "Edad de mama  27.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Ejercicio Numero 4\n",
+        "edadjuan = 9\n",
+        "edadalber = (2/3)* edadjuan\n",
+        "edadana = (4/3)* edadjuan\n",
+        "edmama = (edadjuan+edadalber+edadana)\n",
+        "print (\"Edad de Juan \", edadjuan)\n",
+        "print (\"Edad de alber \", edadalber)\n",
+        "print (\"Edad de Ana \", edadana)\n",
+        "print (\"Edad de mama \", edmama)"
+      ]
+    }
+  ]
+}
